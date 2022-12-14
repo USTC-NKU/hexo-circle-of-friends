@@ -20,7 +20,7 @@ LINK:
 OUTDATE_CLEAN: 60
 SETTINGS_FRIENDS_LINKS:
   enable: true
-  json_api: https://cdn.jsdelivr.net/gh/USTC-NKU/CDN@main/friend.json
+  json_api: https://cdn.jsdelivr.net/gh/USTC-NKU/CDN@master/friend.json
   list:
   - - David
     - https://justdoit520.gitee.io
