@@ -31,7 +31,7 @@ LINK:
 #       suffix：选填，自定义订阅后缀，主要针对不规范的网站订阅后缀，见示例2
 SETTINGS_FRIENDS_LINKS: {
     enable: true,
-    json_api: "", #https://cdn.jsdelivr.net/gh/USTC-NKU/CDN@main/friend.json
+    json_api: "https://cdn.jsdelivr.net/gh/USTC-NKU/CDN@master/friend.json", #https://cdn.jsdelivr.net/gh/USTC-NKU/CDN@main/friend.json
     list: [
         # 示例1：
           ["David",   "https://justdoit520.gitee.io",  "https://justdoit520.gitee.io/img/background-sunrise.jpg"  ],
@@ -46,6 +46,8 @@ SETTINGS_FRIENDS_LINKS: {
           ["长街短梦","https://wangyunzi.com/", "https://blog.wangyunzi.com/avatar.png"],
           ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
           ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
+          ["UTOPIA","https://ishya.top/","https://ishya.top/source/imgs/avatar.jpg"],
+          ["Corrain","https://www.corrain.top/","https://www.corrain.top/wp-content/uploads/2022/11/profile.jpg"],
         # 示例2：使用suffix的配置如下
         # 程序目前自动获取 "atom.xml", "feed/atom", "rss.xml", "rss2.xml", "feed", "index.xml" 这些后缀
         # 如果目标地址的后缀不在其中，就可以在这里添加
